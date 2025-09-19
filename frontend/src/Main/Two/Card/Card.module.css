@@ -1,0 +1,23 @@
+.Card{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+@media (min-width: 769px) {
+    .Card{
+        width: 84.33vw;
+        height: 58.33vw;
+        gap: 2.78vw;
+    }
+}
+@media (min-width: 501px) and (max-width: 768px){
+    .Card{
+        width: 87vw;
+        height: 48.05vw;
+        gap: 3.91vw;
+        margin-top: -9vw;
+        margin-bottom: 5vw;
+        justify-content: center;
+    }
+}

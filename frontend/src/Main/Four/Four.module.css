@@ -1,0 +1,105 @@
+.Four{
+    overflow: hidden;
+}
+.Info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Info button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat_Medium';
+    line-height: 120%;
+    border: none;
+    background: #000CFF;
+}
+.Text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Header{
+    color: #000CFF;
+    font-family: 'Montserrat_Bold';
+    line-height: 120%;
+}
+.Main{
+    color: #627A95;
+    font-family: 'Montserrat_Medium';
+}
+.CardOne{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+.CardTwo{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+.AllProjects{
+    color: #000CFF;
+    text-align: right;
+    font-family: 'Montserrat_Medium';
+    line-height: 120%;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+@media (min-width: 927px) {
+    .Four{
+        height: 40.35vw;
+    }
+    .Info{
+        width: 25.89vw;
+        height: 21.77vw;
+        gap: 2.78vw;
+        margin-top: 8.33vw;
+        margin-left: 8.33vw;
+    }
+    .Info button{
+        width: 10.42vw;
+        height: 3.85vw;
+        border-radius: 0.56vw;
+        gap: 0.56vw;
+        font-size: 1.11vw;
+        backdrop-filter: blur(0.21vw);
+    }
+    .Text{
+        gap: 1.67vw;
+        width: 25.89vw;
+        height: 15.16vw;
+    }
+    .Header{
+        font-size: 2.92vw;
+        letter-spacing: -0.03vw;
+    }
+    .Main{
+        font-size: 1.11vw;
+        line-height: 1.67vw;
+    }
+    .CardOne{
+        gap: 2.78vw;
+        width: 25.89vw;
+        top: -27.5vw;
+        left: 37.03vw;
+    }
+    .CardTwo{
+        gap: 2.78vw;
+        width: 25.89vw;
+        top: -35.17vw;
+        left: 39.89vw;
+    }
+    .AllProjects{
+        width: 7.08vw;
+        font-size: 1.04vw;
+        letter-spacing: -0.01vw;
+        margin-left: 33.81vw;
+        top: 2vw;
+    }
+}

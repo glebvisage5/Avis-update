@@ -1,0 +1,72 @@
+.HeaderText{
+    font-family: 'Montserrat_Medium';
+    color: #627A95;
+}
+.Twoh1{
+    font-family: 'Montserrat_Bold';
+    line-height: 120%;
+    color: #2534B4;
+    position: relative;
+}
+.Twoh1span{
+    color: #000CFF;
+}
+.TwoHeaderP{
+    position: relative;
+}
+
+@media (min-width: 769px) {
+    .Two{
+        width: 83.33vw;
+        height: 69.51vw;
+        margin-top: 8.65vw;
+        margin-left: 8.33vw;
+    }
+    .HeaderText{
+        width: 83.33vw;
+        height: 5.63vw;
+        line-height: 1.67vw;
+        font-size: 0.9vw;
+        margin-bottom: 5.56vw;
+    }
+    .Twoh1{
+        width: 29.115vw;
+        font-size: 2.36vw;
+        top: -2.6vw;
+    }
+    .TwoHeaderP{
+        margin-left: 35.9vw;
+        top: -10.1vw;
+    }
+}
+@media (min-width: 501px) and (max-width: 768px){
+    .Two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 87.5vw;
+        height: 63.54vw;
+        margin-top: 5.73vw;
+        margin-left: 6.51vw;
+    }
+    .HeaderText{
+        width: 87.5vw;
+        height: 31.51vw;
+        line-height: 2.43vw;
+        font-size: 2.26vw;
+        text-align: center;
+    }
+    .Twoh1{
+        font-size: 4.43vw;
+        letter-spacing: -0.05vw;
+        top: -6.5vw;
+    }
+    .TwoHeaderP{
+        text-align: center;
+        top: -10.1vw;
+        line-height: 4.17vw;
+    }
+    .TwoHeaderPWithMargin{
+        margin-bottom: 30.5vw;
+    }
+}

@@ -1,0 +1,43 @@
+.Cards{
+    display: flex;
+    align-items: center;
+    background: #F6F7F9;
+}
+.Text{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Headertxt{
+    color: #101566;
+    font-family: 'Montserrat_Bold';
+    line-height: 160%;
+}
+.Footertxt{
+    color: #627A95;
+    font-family: 'Montserrat_Medium';
+    line-height: 160%;
+}
+@media (min-width: 927px) {
+    .Cards{
+        width: 25.9vw;
+        padding: 1.11vw;
+        border-radius: 1.11vw;
+        gap: 1.67vw;
+    }
+    .Img{
+        width: 5vw;
+        height: 5vw;
+    }
+    .Text{
+        height: 4.38vw;
+        gap: 0.56vw;
+    }
+    .Headertxt{
+        font-size: 1.39vw;
+    }
+    .Footertxt{
+        font-size: 0.97vw;
+    }
+}

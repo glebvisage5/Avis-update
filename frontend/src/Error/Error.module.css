@@ -1,0 +1,47 @@
+.Error{
+    display: flex;
+    width: 39.17vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.56vw;
+    margin-top: 17.1vw;
+    margin-left: 28.61vw;
+}
+.Oops{
+    text-align: center;
+    font-family: 'Montserrat_ExtraBold';
+    font-size: 5.21vw;
+    letter-spacing: 0.02vw;
+    background: linear-gradient(118deg, #666DFF 26.35%, #000CFF 63.63%, #2534B4 100.91%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Status, .Message{
+    color: #121212;
+    text-align: center;
+    line-height: 1.2vw;
+    letter-spacing: 0.02vw;
+    white-space: nowrap;
+}
+.Status{
+    font-family: 'Montserrat_SemiBold';
+    font-size: 0.99vw;
+}
+.Message{
+    font-family: 'Montserrat_Medium';
+    font-size: 0.78vw;
+}
+.Error button{
+    display: flex;
+    padding: 0.83vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.26vw;
+    background: #000CFF;
+    color: #FFF;
+    font-family: 'Montserrat_SemiBold';
+    font-size: 0.78vw;
+    border: none;
+    cursor: pointer;
+}

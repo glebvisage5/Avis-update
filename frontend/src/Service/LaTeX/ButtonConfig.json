@@ -1,0 +1,84 @@
+[
+    {
+        "title": "Алгебра",
+        "buttons": [
+            { "label": "Σ (Сумма)", "code": "\\sum_{n=0}^\\infty" },
+            { "label": "Π (Произведение)", "code": "\\prod_{n=1}^N" },
+            { "label": "Дробь", "code": "\\frac{a}{b}" },
+            { "label": "Корень", "code": "\\sqrt{x}" },
+            { "label": "d/dx (Производная)", "code": "\\frac{d}{dx} \\left( x^n \\right)" },
+            { "label": "Пифагорова теорема", "code": "a^2 + b^2 = c^2" },
+            { "label": "Тейлор", "code": "f(x) = \\sum_{n=0}^\\infty \\frac{f^{(n)}(a)}{n!} (x-a)^n" },
+            { "label": "Квадрат дроби", "code": "\\left( \\frac{a}{b} \\right)^2" },
+            { "label": "Биномиальный коэффициент", "code": "\\binom{n}{k}" }
+        ]
+    },
+    {
+        "title": "Геометрия",
+        "buttons": [
+            { "label": "π (Пи)", "code": "\\pi" },
+            { "label": "Угол", "code": "\\angle ABC" },
+            { "label": "Теорема Пифагора", "code": "a^2 + b^2 = c^2" },
+            { "label": "Площадь круга", "code": "\\text{Area} = \\pi r^2" },
+            { "label": "Синус", "code": "\\sin\\theta"},
+            { "label": "Косинус", "code": "\\cos\\theta"},
+            { "label": "Тангенс", "code": "\\tan\\theta"},
+            { "label": "Объем шара", "code": "\\text{Volume} = \\frac{4}{3} \\pi r^3"}
+        ]
+    },
+    {
+       "title": "Пределы и производные",
+       "buttons": [
+            { "label": "lim (Предел)", "code": "\\lim_{x \\to \\infty} \\frac{1}{x}" },
+            { "label": "Производная от x^n", "code": "\\frac{d}{dx} x^n" },
+            { "label": "Производная от sin(x)", "code": "\\frac{d}{dx} \\sin(x)" },
+            { "label": "Производная от cos(x)", "code": "\\frac{d}{dx} \\cos(x)" },
+            { "label": "Производная от e^x", "code": "\\frac{d}{dx} e^x" },
+            { "label": "Производная от ln(x)", "code": "\\frac{d}{dx} \\ln(x)" },
+            { "label": "lim sin(x)/x", "code": "\\lim_{x \\to 0} \\frac{\\sin(x)}{x}" },
+            { "label": "Интеграл x^2", "code": "\\int_{a}^{b} x^2 dx" }
+        ]
+    },
+    {
+        "title": "Интегралы",
+        "buttons": [
+            { "label": "Интеграл x^2", "code": "\\int_a^b x^2 \\ dx" },
+            { "label": "Интеграл e^x", "code": "\\int_a^b e^x \\ dx" },
+            { "label": "Интеграл sin(x)", "code": "\\int_a^b \\sin(x) \\ dx" },
+            { "label": "Интеграл cos(x)", "code": "\\int_a^b \\cos(x) \\ dx" },
+            { "label": "Интеграл 1/x", "code": "\\int_a^b \\frac{1}{x} \\ dx" },
+            { "label": "Интеграл ln(x)", "code": "\\int_a^b \\ln(x) \\ dx" },
+            { "label": "Интеграл x^n", "code": "\\int_a^b x^n \\ dx" },
+            { "label": "Интеграл 1/(1+x^2)", "code": "\\int_{a}^{b} \\frac{1}{1+x^2} dx"}
+        ]
+    },
+    {
+        "title": "Специальные символы",
+        "buttons": [
+            { "label": "α", "code": "\\alpha" },
+            { "label": "β", "code": "\\beta" },
+            { "label": "γ", "code": "\\gamma" },
+            { "label": "δ", "code": "\\delta" },
+            { "label": "ε", "code": "\\epsilon" },
+            { "label": "π", "code": "\\pi" },
+            { "label": "∞", "code": "\\infty" },
+            { "label": "∂", "code": "\\partial" },
+            { "label": "∇", "code": "\\nabla" },
+            { "label": "≡", "code": "\\equiv" }
+        ]
+    },
+    {
+        "title": "Алгебра логики",
+        "buttons": [
+            { "label": "¬A", "code": "\\neg A" },
+            { "label": "A ∧ B", "code": "A \\land B" },
+            { "label": "A ∨ B", "code": "A \\lor B" },
+            { "label": "A → B", "code": "A \\to B" },
+            { "label": "A ↔ B", "code": "A \\leftrightarrow B" },
+            { "label": "∀x", "code": "\\forall x" },
+            { "label": "∃x", "code": "\\exists x" },
+            { "label": "A ⊕ B", "code": "A \\oplus B" }
+        ]
+    }
+  ]
+  

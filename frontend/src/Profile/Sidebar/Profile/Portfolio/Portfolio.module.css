@@ -1,0 +1,94 @@
+.Portfolios{
+    display: flex;
+    width: 33.18vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.09vw;
+    margin-top: 0;
+    margin-left: 1.09vw;
+    font-family: 'Montserrat_Medium';
+    line-height: 1.2vw;
+    letter-spacing: 0.02vw;
+}
+.PortfolioCard{
+    display: flex;
+    width: 30.47vw;
+    height: 3.85vw;
+    padding: 0.78vw 1.61vw 0.57vw 1.09vw;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 0.78vw;
+    border: 0.05vw solid #7A7E86;
+    cursor: pointer;
+}
+.ContentCard{
+    display: flex;
+    align-items: center;
+    gap: 1.2vw;
+}
+.ContentCard img{
+    width: 3.85vw;
+    height: 3.65vw;
+}
+.InfoCard{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.41vw;
+}
+.TitleCard{
+    display: flex;
+    width: 16.72vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.26vw;
+    color: #121212;
+}
+.Title{
+    font-size: 0.89vw;
+}
+.Description{
+    font-size: 0.68vw;
+}
+.Info{
+    display: flex;
+    width: 7.5vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.26vw;
+    font-size: 0.68vw;
+}
+.Startap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    color: #7A7E86;
+}
+.AddCard{
+    display: flex;
+    width: 20.78vw;
+    height: 2.6vw;
+    padding: 1.3vw 6.2vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.52vw;
+    border-radius: 0.78vw;
+    border: 0.05vw dashed #7A7E86;
+    color: #7A7E86;
+    text-align: center;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.89vw;
+    line-height: 1.2vw;
+    letter-spacing: 0.02vw;
+    cursor: pointer;
+}
+.AddCard div{
+    display: flex;
+    align-items: center;
+    gap: 1.56vw;
+}
+.AddCard img{
+    width: 2.6vw;
+    height: 2.6vw;
+}

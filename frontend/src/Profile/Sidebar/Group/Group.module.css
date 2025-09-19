@@ -1,0 +1,93 @@
+.text{
+    font-family: 'Montserrat_Medium';
+    font-size: 0.78vw;
+    margin-left: 1.09vw;
+}
+.Group{
+    width: 72.81vw;
+    border-radius: 1.3vw;
+    height: auto;
+    padding: 1.09vw;
+    background: white;
+}
+.Header_text{
+    color: #121212;
+    font-family: 'Montserrat_SemiBold';
+    font-size: 0.99vw;
+    line-height: 1.2vw;
+    letter-spacing: 0.02vw;
+    margin-top: -0.2vw;
+}
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+.Table thead th{
+    font-family: 'Montserrat_Regular';
+    font-size: 0.89vw;
+    font-weight: 600;
+}
+.Table th, td {
+    padding: 0.42vw 0.63vw;
+    vertical-align: middle;
+    text-align: left;
+}
+.Table td{
+    font-family: 'Montserrat_Medium';
+    font-size: 0.89vw;
+}
+.Col1 {
+    width: 1.56vw;
+    padding-right: 1.56vw;
+}
+.Col2 {
+    width: auto;
+}
+.Table thead th.Col3, .Table thead th.Col4 {
+    text-align: center;
+}
+.Col3 {
+    white-space: nowrap;
+    text-align: center;
+}
+.Col4 {
+    width: 6.25vw;
+    text-align: center;
+}
+.ActionBtn, .ActionBtnUser {
+    font-family: 'Montserrat_Medium';
+    padding: 0.21vw 0.42vw;
+    font-size: 0.89vw;
+    border: none;
+    border-radius: 0.16vw;
+    background: none;
+}
+.ActionBtn{
+    cursor: pointer;
+    color: #000CFF;
+}
+.Name_active{
+    border: 0.05vw solid #000CFF;
+}
+.Col3 input {
+    width: 25%;
+    padding: 0 0.52vw 0 0.52vw;
+    margin-top: 0.52vw;
+    outline: none;
+    box-sizing: border-box;
+    height: 1.82vw;
+    border: 0.05vw solid #121212;
+    border-radius: 0.26vw;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.89vw;
+    text-align: center;
+}
+.Buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.3vw;
+    justify-content: center;
+    align-items: center;
+}

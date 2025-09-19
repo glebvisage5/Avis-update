@@ -1,0 +1,51 @@
+.Subject{
+    width: 46.41vw;
+    display: flex;
+    height: 1.98vw;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.Subject_text{
+    max-width: 24.74vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: -0.21vw;
+}
+.Subject_text p{
+    width: 100%;
+    font-family: 'Montserrat_Medium';
+    color: #121212;
+    font-size: 0.89vw;
+}
+.Subject_text svg{
+    width: 1.98vw;
+    height: 0.99vw;
+}
+.Subject_progress{
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.3vw;
+}
+.Subject_progress p{
+    color: #121212;
+    text-align: right;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.78vw;
+    opacity: 0.5;
+    line-height: 0.98vw;
+    letter-spacing: 0.01vw;
+}
+.Back_bar{
+    width: 14.58vw;
+    height: 0.42vw;
+    border-radius: 0.42vw;
+    background: #2534B41A;
+}
+.Bar{
+    height: 0.42vw;
+    border-radius: 0.42vw;
+    opacity: .65;
+}

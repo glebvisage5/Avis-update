@@ -1,0 +1,75 @@
+.Model{
+    width: 100%;
+    height: 120%;
+    background: #12121299;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.ModalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+}
+.ModalWindow {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 1.3vw;
+    z-index: 1001;
+    width: 24.79vw;
+    height: 41vw;
+    padding: 1.93vw;
+}
+
+.ModalWindow p{
+    color: #121212;
+    font-family: 'Montserrat_SemiBold';
+    font-size: 0.99vw;
+    margin-top: -0.2vw;
+}
+
+.Form label {
+    display: block;
+    margin-bottom: 0.83vw;
+    color: #121212;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.78vw;
+}
+
+.Form input {
+    width: 100%;
+    padding: 0 0.52vw 0 0.52vw;
+    margin-top: 0.52vw;
+    outline: none;
+    box-sizing: border-box;
+    height: 1.82vw;
+    border: 0.05vw solid #121212;
+    border-radius: 0.26vw;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.78vw;
+}
+
+.Form button {
+    margin-right: 0.83vw;
+    padding: 0.83vw 1.46vw 0.83vw 1.56vw;
+    border-radius: 0.26vw;
+    cursor: pointer;
+    font-family: 'Montserrat_SemiBold';
+    font-size: 0.78vw;
+}
+.Add{
+    border: none;
+    background: #000CFF;
+    color: white;
+}
+.Close{
+    border: 0.08vw solid #000CFF;
+    background: none;
+    color: #121212;
+}

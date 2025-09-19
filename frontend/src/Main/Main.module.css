@@ -1,0 +1,39 @@
+@media (min-width: 769px) {
+    .AppOne{
+        margin-left: 8.7vw;
+        margin-top: 4.58vw;
+    }
+    .AppTwo{
+        margin-top: 0;
+    }
+    .AppThree, .AppFour, .AppFive, .AppSix, .AppFooter{
+        margin-top: 8.66vw;
+    }
+    .AppFive{
+        margin-left: 9.27vw;
+    }
+    .AppSix{
+        margin-left: 23.7vw;
+    }
+}
+@media (min-width: 501px) and (max-width: 768px){
+    .AppOne{
+        margin-left: 6.51vw;
+        margin-top: 5.21vw;
+    }
+    .AppTwo{
+        margin-top: 0;
+    }
+    .AppThree, .AppFour, .AppFive, .AppSix, .AppFooter{
+        margin-top: 8.66vw;
+    }
+    .AppFive{
+        margin-left: 9.27vw;
+    }
+    .AppSix{
+        margin-left: 23.7vw;
+    }
+}
+@media (max-width: 500px){
+    
+}

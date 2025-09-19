@@ -1,0 +1,39 @@
+.SliderContainer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34.51vw;
+    height: 1.56vw;
+    gap: 5.86vw;
+}
+.arrow {
+    width: 1.04vw;
+    height: 1.69vw;
+    cursor: pointer;
+    align-items: center;
+}
+.activear{
+    opacity: 0.3;
+}
+.arrowl{
+    transform: rotate(180deg);
+}
+.dots {
+    display: flex;
+    gap: 5.86vw;
+    align-items: center;
+}
+.dot {
+    width: 0.78vw;
+    height: 0.78vw;
+    border-radius: 50%;
+    background-color: #000CFF;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+.dot.active {
+    width: 1.3vw;
+    height: 1.3vw;
+    background-color: #000CFF;
+    opacity: 1;
+}

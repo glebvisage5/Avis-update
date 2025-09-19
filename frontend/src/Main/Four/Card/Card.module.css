@@ -1,0 +1,63 @@
+.Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F6F7F9;
+}
+.Text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.Headertxt{
+    color: #2534B4;
+    font-family: 'Montserrat_Bold';
+    line-height: 160%;
+}
+.Footertxt{
+    color: #627A95;
+    font-family: 'Montserrat_Medium';
+    line-height: 160%;
+}
+@media (min-width: 927px) {
+    .Card{
+        width: 23.8vw;
+        height: 10.68vw;
+        padding-left: 1.59vw;
+        padding-right: 1.59vw;
+        gap: 1.82vw;
+        border-radius: 1.11vw;
+    }
+    .Progers{
+        width: 6.49vw;
+        height: 3.65vw;
+    }
+    .Avis{
+        width: 5.25vw;
+        height: 5vw;
+    }
+    .CAO{
+        width: 5vw;
+        height: 5vw;
+    }
+    .Air{
+        width: 5.13vw;
+        height: 5vw;
+    }
+    .Dash{
+        width: 4.75vw;
+        height: 4.75vw;
+    }
+    .Text{
+        gap: 0.56vw;
+        width: 15.52vw;
+        height: 7.5vw;
+    }
+    .Headertxt{
+        font-size: 1.39vw;
+    }
+    .Footertxt{
+        font-size: 0.97vw;
+    }
+}

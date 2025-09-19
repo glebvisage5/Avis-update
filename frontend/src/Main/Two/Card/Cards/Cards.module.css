@@ -1,0 +1,138 @@
+.Headertxt{
+    color: #101566;
+    font-family: 'Montserrat_Bold';
+}
+.Footertxt{
+    color: #627A95;
+    font-family: 'Montserrat_Medium';
+}
+.Quality{
+    background: #EDF1FF;
+}
+.Individual{
+    background: #FFF;
+}
+.Speed{
+    background: #F6F7F9;
+}
+.Innovation{
+    background: #FFF;
+}
+.Reliability{
+    background: #FFFFE7;
+}
+@media (min-width: 769px) {
+    .Main{
+        margin-top: 4.17vw;
+        margin-left: 2.5vw;
+    }
+    .Img{
+        width: 11.09vw;
+        height: 11.09vw;
+        margin-bottom: 2.22vw;
+    }
+    .Headertxt{
+        font-size: 1.39vw;
+        margin-bottom: 0.56vw;
+    }
+    .Footertxt{
+        font-size: 0.97vw;
+        line-height: 160%;
+    }
+    .Quality{
+        width: 21.51vw;
+        height: 27.76vw;
+        border-radius: 1.39vw;
+    }
+    .Quality .Footertxt{
+        width: 16.51vw;
+    }
+    .Individual{
+        width: 34.72vw;
+        height: 27.78vw;
+        border-radius: 1.39vw;
+        border: 0.07vw solid #D4DBE3;
+    }
+    .Individual .Footertxt{
+        width: 17.78vw;
+    }
+    .Speed{
+        width: 21.53vw;
+        height: 27.78vw;
+        border-radius: 1.39vw;
+    }
+    .Speed .Footertxt{
+        width: 15.35vw;
+    }
+    .Innovation{
+        width: 40.28vw;
+        height: 27.78vw;
+        border-radius: 1.39vw;
+        border: 0.07vw solid #D4DBE3;
+    }
+    .Innovation .Footertxt{
+        width: 25.94vw;
+    }
+    .Reliability{
+        width: 40.28vw;
+        height: 27.78vw;
+        border-radius: 1.39vw;
+    }
+}
+@media (min-width: 501px) and (max-width: 768px){
+    .Main{
+        margin-top: 7.21vw;
+        margin-left: 4.32vw;
+    }
+    .Img{
+        width: 19.22vw;
+        height: 19.22vw;
+        margin-bottom: 3.84vw;
+    }
+    .Headertxt{
+        font-size: 2.4vw;
+        margin-bottom: 0.96vw;
+    }
+    .Footertxt{
+        font-size: 1.68vw;
+    }
+    .Quality{
+        width: 41.41vw;
+        height: 48.05vw;
+        border-radius: 2.41vw;
+    }
+    .Quality .Footertxt{
+        width: 28.59vw;
+    }
+    .Individual{
+        width: 41.41vw;
+        height: 48.05vw;
+        border-radius: 2.4vw;
+        border: 0.12vw solid #D4DBE3;
+    }
+    .Individual .Footertxt{
+        width: 30.75vw;
+    }
+    .Speed{
+        width: 41.41vw;
+        height: 48.05vw;
+        border-radius: 2.4vw;
+    }
+    .Speed .Footertxt{
+        width: 26.55vw;
+    }
+    .Innovation{
+        width: 41.41vw;
+        height: 48.05vw;
+        border-radius: 2.4vw;
+        border: 0.12vw solid #D4DBE3;
+    }
+    .Innovation .Footertxt{
+        width: 35.16vw;
+    }
+    .Reliability{
+        width: 69.66vw;
+        height: 48.05vw;
+        border-radius: 2.4vw;
+    }
+}

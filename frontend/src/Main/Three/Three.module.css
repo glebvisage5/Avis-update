@@ -1,0 +1,81 @@
+.Text{
+    text-align: center;
+}
+.Text h1{
+    font-family: 'Montserrat_Bold';
+    color: #000CFF;
+    line-height: 120%;
+}
+.Text p{
+    color: #627A95;
+    font-family: 'Montserrat_Medium';
+}
+.Card{
+    display: flex;
+    align-items: center;
+}
+@media (min-width: 769px) {
+    .Three{
+        width: 111.98vw;
+        height: 34.64vw;
+        margin-left: -5.99vw;
+    }
+    .Text{
+        width: 49.01vw;
+        height: 11.82vw;
+        margin-left: 31.51vw;
+    }
+    .Text h1{
+        margin-bottom: 1.67vw;
+        font-size: 2.92vw;
+        letter-spacing: -0.03vw;
+        margin-top: -0.52vw;
+    }
+    .Text p{
+        font-size: 1.11vw;
+        line-height: 1.67vw;
+    }
+    .Card{
+        max-width: 140.63vw;
+        height: 7.24vw;
+        margin-top: 5.57vw;
+        margin-bottom: 5.57vw;
+        gap: 2.78vw;
+    }
+    .CardOne{
+        margin-left: 11.32vw;
+    }
+}
+@media (min-width: 501px) and (max-width: 768px){
+    .Three{
+        width: 88.15vw;
+        height: 63.54vw;
+        border: 1px solid red;
+    }
+    .Text{
+        width: 86.85vw;
+        height: 25.39vw;
+        text-align: center;
+        justify-content: center;
+    }
+    .Text h1{
+        margin-bottom: 3vw;
+        font-size: 4.57vw;
+        letter-spacing: -0.05vw;
+        margin-top: -1.04vw;
+    }
+    .Text p{
+        font-size: 2.26vw;
+        line-height: 4.17vw;
+    }
+    .Card{
+        max-width: 140.63vw;
+        height: 7.24vw;
+        margin-top: 5.57vw;
+        margin-bottom: 5.57vw;
+        gap: 2.78vw;
+    }
+    .CardOne{
+        margin-left: 11.32vw;
+    }
+}

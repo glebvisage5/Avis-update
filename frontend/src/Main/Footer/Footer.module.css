@@ -1,0 +1,236 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #F6F7F9;
+}
+.All{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.Information{
+    display: flex;
+    align-items: flex-start;
+}
+.Avis{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+}
+.Logo div{
+    color: #2534B4;
+    font-family: 'Montserrat_Bold';
+}
+.Idea{
+    color: #101566;
+    font-family: 'Montserrat_Regular';
+    line-height: 150%;
+}
+.Lang{
+    color: #101566;
+    font-family: 'Montserrat_Regular';
+    line-height: 150%;
+}
+.Ru{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+.En{
+    text-decoration: none;
+}
+.En:visited, .Ru:visited{
+    color: #101566;
+}
+.Info_button{
+    display: flex;
+    align-items: flex-start;
+}
+.Navigate{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #F6F6F6;
+    font-family: 'Montserrat_Regular';
+    line-height: 150%;
+}
+.NLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #101566;
+    font-family: 'Montserrat_Regular';
+    line-height: 125%;
+    cursor: pointer;
+}
+.NLinks a, .RLinks a, .MLinks a{
+    text-decoration: none;
+}
+.NLinks a:visited, .RLinks a:visited, .MLinks a:visited{
+    color: #101566;
+}
+.Rules{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #F6F6F6;
+    font-family: 'Montserrat_Regular';
+    line-height: 150%;
+}
+.RLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #101566;
+    font-family: 'Montserrat_Regular';
+    line-height: 125%;
+}
+.Mail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #F6F6F6;
+    font-family: 'Montserrat_Medium';
+    line-height: 150%;
+}
+.MLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #101566;
+    font-family: 'Montserrat_Regular';
+    line-height: 125%;
+}
+.Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.Line{
+    background: #101566;
+}
+.Footer_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.Footer_txt{
+    color: #101566;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'Montserrat_Medium';
+    line-height: 150%;
+}
+.Cockie{
+    display: flex;
+    align-items: flex-start;
+}
+.Cockie div{
+    color: #101566;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'Montserrat_Regular';
+    line-height: 150%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+@media (min-width: 927px) {
+    .Footer{
+        width: 100vw;
+        padding: 3.7vw 8.33vw;
+        gap: 0.52vw;
+    }
+    .All{
+        gap: 5vw;
+    }
+    .Information{
+        gap: 6.39vw;
+    }
+    .Avis{
+        gap: 2.78vw;
+    }
+    .Logo{
+        gap: 0.89vw;
+    }
+    .Logo img{
+        width: 4.65vw;
+        height: 4.43vw;
+    }
+    .Logo div{
+        font-size: 2.52vw;
+    }
+    .Idea{
+        width: 36.67vw;
+        font-size: 1.11vw;
+    }
+    .Lang{
+        width: 36.67vw;
+        font-size: 1.01vw;
+    }
+    .Info_button{
+        width: 40.28vw;
+        gap: 2.78vw;
+    }
+    .Navigate{
+        width: 11.6vw;
+        gap: 1.67vw;
+        font-size: 1.11vw;
+    }
+    .NLinks{
+        gap: 1.11vw;
+        font-size: 1.11vw;
+        line-height: 125%;
+    }
+    .Rules{
+        width: 11.6vw;
+        gap: 1.67vw;
+        font-size: 1.11vw;
+    }
+    .RLinks{
+        gap: 1.11vw;
+        font-size: 1.11vw;
+    }
+    .Mail{
+        width: 11.51vw;
+        gap: 1.67vw;
+        font-size: 1.11vw;
+    }
+    .MLinks{
+        gap: 1.11vw;
+        font-size: 1.11vw;
+    }
+    .Info{
+        width: 83.33vw;
+        height: 2.92vw;
+        gap: 1.67vw;
+    }
+    .Line{
+        width: 83.33vw;
+        height: 0.07vw;
+    }
+    .Footer_info{
+        width: 83.33vw;
+    }
+    .Footer_txt{
+        width: 31.94vw;
+        font-size: 0.83vw;
+    }
+    .Cockie{
+        gap: 1.67vw;
+    }
+    .Cockie div{
+        font-size: 0.83vw;
+    }
+}

@@ -1,0 +1,166 @@
+{
+    "One_info": [
+        {
+            "developers": 20,
+            "projects": 100
+        }
+    ],
+    "Two_info": [
+        {
+            "className": "Quality",
+            "img": "/Quality.svg",
+            "headertxt": "Качество",
+            "footertxt": "Чистый и качественный код вашего проекта"
+        },
+        {
+            "className": "Individual",
+            "img": "/Individual.svg",
+            "headertxt": "Индивидуальный подход",
+            "footertxt": "Индивидуальный подход к каждому проекту с уникальными функциями"
+        },
+        {
+            "className": "Speed",
+            "img": "/Speed.svg",
+            "headertxt": "Скорость",
+            "footertxt": "Выполнение технического \n задания в установленный \n срок"
+        },
+        {
+            "className": "Innovation",
+            "img": "/Innovation.svg",
+            "headertxt": "Инновации",
+            "footertxt": "Внедрение современных решений и технологий, \n чтобы предлагать клиентам лучшие инструменты \n и способы достижения целей."
+        },
+        {
+            "className": "Reliability",
+            "img": "/Reliability.svg",
+            "headertxt": "Надежность",
+            "footertxt": "Мы всегда выполняем взятые на себя обязательства \n и гарантируем высокий уровень обслуживания."
+        }
+    ],
+    "Three_info": {
+        "One": [
+            {
+                "img": "/Html.svg",
+                "headertxt": "Html",
+                "footertxt": "Язык разметки гипертекста"
+            },
+            {
+                "img": "/CSS.svg",
+                "headertxt": "Css",
+                "footertxt": "Язык каскадных таблиц стилей"
+            },
+            {
+                "img": "/Javascript.svg",
+                "headertxt": "JavaScript",
+                "footertxt": "Язык веб-программирования"
+            }
+        ],
+        "Two": [
+            {
+                "img": "/python.svg",
+                "headertxt": "Python",
+                "footertxt": "Язык программирования"
+            },
+            {
+                "img": "/NodeJs.svg",
+                "headertxt": "Node.js",
+                "footertxt": "Серверная среда JavaScript"
+            },
+            {
+                "img": "/Java.svg",
+                "headertxt": "Java",
+                "footertxt": "Язык программирования"
+            },
+            {
+                "img": "/ReactJs.svg",
+                "headertxt": "React.js",
+                "footertxt": "Библиотека для создания интерфейсов"
+            }
+        ]
+    },
+    "Four_info":{
+        "One": [
+            {
+                "className": "Progers",
+                "img": "/projects/progersclub.png",
+                "headertxt": "ProgersClub",
+                "footertxt": "Сайт для изучения язков программирования с личным кабинетом студента."
+            },
+            {
+                "className": "Avis",
+                "img": "/projects/Avis.png",
+                "headertxt": "Avis",
+                "footertxt": "Студия разработки, предлагающая полный спектр решений для бизнеса."
+            },
+            {
+                "className": "CAO",
+                "img": "/projects/CAO.png",
+                "headertxt": "C.A.O",
+                "footertxt": "Бот, предназначенный для автозаполнения рутинных отчётов за студентов."
+            }
+        ],
+        "Two": [
+            {
+                "className": "Avis",
+                "img": "/projects/Avis.png",
+                "headertxt": "Avis Support",
+                "footertxt": "Телеграмм бот студии Avis для технической поддержки сайта, обратной связи между клиентом и заказчиком."
+            },
+            {
+                "className": "Air",
+                "img": "/projects/AirInvasion.svg",
+                "headertxt": "Air invasion",
+                "footertxt": "Путеводитель в мире чистого воздуха."
+            }
+            ,
+            {
+                "className": "Dash",
+                "img": "/projects/YellowDash.png",
+                "headertxt": "YellowDash",
+                "footertxt": "Инструменты и информация для управления проектами, отслеживания прогресса и анализа результатов."
+            }
+        ]
+    },
+    "Five_info": [
+        {
+            "img": "/develop.jpg",
+            "nameproject": "Проект",
+            "user": "Пупкин Вася",
+            "text": "Работа выполнена хорошо, но не дотягивает до отлично, поэтому 4-ре звезды"
+        }
+    ],
+    "Six_info": {
+        "One": [
+            {
+                "label": "Ваше имя",
+                "type": "text"
+            },
+            {
+                "label": "Ваша почта",
+                "type": "email"
+            },
+            {
+                "label": "Телеграмм",
+                "type": "text"
+            },
+            {
+                "label": "Название проекта",
+                "type": "text"
+            },
+            {
+                "label": "Желаемые сроки выполнения",
+                "type": "text"
+            },
+            {
+                "label": "Бюджет проекта",
+                "type": "text"
+            }
+        ],
+        "Two": [
+            {
+                "label": "Описание проекта",
+                "type": "text"
+            }
+        ]
+    }
+}

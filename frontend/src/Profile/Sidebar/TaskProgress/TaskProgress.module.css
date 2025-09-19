@@ -1,0 +1,48 @@
+.Cards{
+    display: grid;
+    width: 75.05vw;
+    height: auto;
+    row-gap: 1.41vw;
+    column-gap: 1.41vw;
+    flex-shrink: 0;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.Add_card{
+    width: 17.71vw;
+    height: 19.27vw;
+    border-radius: 1.3vw;
+    border: 0.05vw solid #7A7E86;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.Click{
+    color: #7A7E86;
+    text-align: center;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.78vw;
+    line-height: 0.98vw;
+    letter-spacing: 0.01vw;
+    opacity: 0.3;
+    margin-top: 5.26vw;
+}
+.Add_btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 9.01vw;
+    height: 6.67vw;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.89vw;
+    color: #7A7E86;
+    text-align: center;
+    margin-top: 5.26vw;
+}
+.Add_btn img{
+    width: 3.91vw;
+    height: 3.91vw;
+    margin-top: 1.56vw;
+}

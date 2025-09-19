@@ -1,0 +1,20 @@
+.DataItem{
+    height: 2.4vw;
+    max-width: 5.92vw;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.68vw;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.DataLabel{
+    color: #7A7E86;
+}
+.DataValue{
+    color: #121212;
+    margin-top: -0.2vw;
+}

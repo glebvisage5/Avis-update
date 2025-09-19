@@ -1,0 +1,92 @@
+{
+    "One_bar": [
+        {
+            "src_white": "/profile/white/Dash.svg",
+            "src_black": "/profile/black/Dash.svg",
+            "text": "Панель"
+        },
+        {
+            "src_white": "/profile/white/BarChartLine.svg",
+            "src_black": "/profile/black/BarChartLine.svg",
+            "text": "Прогресс задач"
+        },
+        {
+            "src_white": "/profile/white/Archive.svg",
+            "src_black": "/profile/black/Archive.svg",
+            "text": "Группа"
+        },
+        {
+            "src_white": "/profile/white/People.svg",
+            "src_black": "/profile/black/People.svg",
+            "text": "Groups"
+        },
+        {
+            "src_white": "/profile/white/FileEarmarkCheckFill.svg",
+            "src_black": "/profile/black/FileEarmarkCheckFill.svg",
+            "text": "Файлы"
+        }
+    ],
+    "Two_bar": [
+        {
+            "src_white": "/profile/white/Vector.svg",
+            "src_black": "/profile/black/Vector.svg",
+            "text": "Профиль"
+        },
+        {
+            "src_white": "/profile/white/Gear.svg",
+            "src_black": "/profile/black/Gear.svg",
+            "text": "Настройки"
+        },
+        {
+            "src_white": "/profile/white/BoxArrowRight.svg",
+            "src_black": "/profile/black/BoxArrowRight.svg",
+            "text": "Выйти",
+            "isLogout": true
+        }
+    ],
+    "Task": [
+        {
+            "src": "/card_task/akms.png",
+            "header": "Анализ и концептуальное моделирование систем (часть 1/1) [II.24-25]",
+            "ready": 10,
+            "task": 16,
+            "color": "#FF8500",
+            "departament": "Кафедра практической и прикладной информатики"
+        },
+        {
+            "src": "/card_task/enlang.png",
+            "header": "Иностранный язык (часть 4/4) [II.24-25]",
+            "ready": 3,
+            "task": 25,
+            "color": "#00DDFF"
+        },
+        {
+            "src": "/card_task/python.png",
+            "header": "Программирование на языке Питон (часть 1/1) [II.24-25]",
+            "ready": 3,
+            "task": 4,
+            "color": "#0A5284"
+        },
+        {
+            "src": "/card_task/pbd.png",
+            "header": "Проектирование баз данных (часть 1/1) [II.24-25]",
+            "ready": 7,
+            "task": 7,
+            "color": "#00FF00"
+        },
+        {
+            "src": "/card_task/trpp.png",
+            "header": "Технология разработки программных приложений (часть 1/1) [II.24-25]",
+            "ready": 5,
+            "task": 10,
+            "color": "#FF0000"
+        },
+        {
+            "src": "/card_task/front.png",
+            "header": "Фронтенд-разработка (часть 2/2) [II.24-25]",
+            "ready": 17,
+            "task": 20,
+            "color": "#000CFF"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+.Frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Label{
+    align-self: stretch;
+    color: #2534B4;
+    text-align: center;
+    font-family: 'Montserrat_SemiBold';
+}
+.Input{
+    align-self: stretch;
+    outline: none;
+    font-family: 'Montserrat_Medium';
+    resize: none;
+    overflow: hidden;
+}
+
+@media (min-width: 927px) {
+    .Frame{
+        width: 52.55vw;
+        padding: 0vw 0.78vw;
+        gap: 0.47vw;
+    }
+    .Label{
+        font-size: 1.22vw;
+    }
+    .Input{
+        height: 12.9vw;
+        border-radius: 0.21vw;
+        border: 0.05vw solid #C4C8D0;
+        font-size: 1.04vw;
+        padding: 1vw 1vw;
+    }
+}

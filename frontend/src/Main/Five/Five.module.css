@@ -1,0 +1,146 @@
+.Five{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.Head{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.H1{
+    color: #000CFF;
+    text-align: center;
+    font-family: 'Montserrat_Bold';
+    line-height: 120%;
+}
+.P{
+    color: #627A95;
+    text-align: center;
+    font-family: 'Montserrat_Medium';
+    line-height: 150%;
+}
+.Foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.Info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.Text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.txt_stars{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+}
+.headertxt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.nameproject{
+    color: #627A95;
+    font-family: 'Montserrat_SemiBold';
+}
+.user{
+    color: #000CFF;
+    font-family: 'Montserrat_SemiBold';
+}
+.Stars{
+    display: flex;
+    align-items: center;
+}
+.text{
+    align-self: stretch;
+    color: #2534B4;
+    font-family: 'Montserrat_Medium';
+}
+.Btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000CFF;
+    color: #F6F7F9;
+    font-family: 'Montserrat_medium';
+    line-height: 120%;
+    border: none;
+}
+@media (min-width: 927px) {
+    .Five{
+        width: 81.33vw;
+        height: 35.57vw;
+        gap: 5.52vw;
+    }
+    .Head{
+        width: 52.55vw;
+        height: 11.82vw;
+        gap: 1.67vw;
+    }
+    .H1{
+        font-size: 2.92vw;
+        letter-spacing: -0.03vw;
+    }
+    .P{
+        font-size: 1.11vw;
+    }
+    .Foot{
+        width: 81.3vw;
+        height: 18.23vw;
+        gap: 9.53vw;
+    }
+    .Img{
+        width: 31.25vw;
+        height: 18.23vw;
+    }
+    .Info{
+        width: 40.55vw;
+        gap: 8.28vw;
+    }
+    .Text{
+        width: 40.55vw;
+        gap: 1.04vw;
+    }
+    .headertxt{
+        width: 12.6vw;
+        gap: 0.89vw;
+    }
+    .nameproject{
+        width: 3.39vw;
+        font-size: 0.83vw;
+        letter-spacing: 0.02vw;
+    }
+    .user{
+        width: 12.7vw;
+        font-size: 1.77vw;
+        letter-spacing: 0.04vw;
+    }
+    .Stars{
+        gap: 0.52vw;
+        width: 10.16vw;
+        height: 1.61vw;
+    }
+    .Stars img{
+        width: 1.61vw;
+        height: 1.61vw;
+    }
+    .text{
+        font-size: 0.94vw;
+    }
+    .Btn{
+        padding: 1.25vw 2.22vw;
+        gap: 0.56vw;
+        border-radius: 0.56vw;
+        backdrop-filter: blur(0.21vw);
+        font-size: 1.11vw;
+    }
+}

@@ -1,0 +1,107 @@
+.Center_bar{
+    width: 75vw;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 1.93vw;
+    flex-wrap: wrap;
+}
+.Photo, .Personal_Data, .Social{
+    height: 17.71vw;
+    background: white;
+    border-radius: 1.3vw;
+}
+.Portfolio, .Achievements{
+    height: 28.59vw;
+    background: white;
+    border-radius: 1.3vw;
+}
+.Photo{
+    width: 15.63vw;
+}
+.Header_text{
+    font-family: 'Montserrat_SemiBold';
+    font-size: 0.99vw;
+    color: #121212;
+    margin-left: 1.09vw;
+}
+.Ellipse{
+    width: 11.72vw;
+    height: 11.72vw;
+    border-radius: 50%;
+    margin-top: -0.36vw;
+    margin-left: 1.98vw;
+}
+.Edit_Photo, .Edit_Data{
+    font-family: 'Montserrat_Medium';
+    font-size: 0.57vw;
+    color: #000CFF;
+    cursor: pointer;
+    margin-top: auto;
+    align-self: flex-end;
+    margin-bottom: 0.63vw;
+    margin-right: 0.94vw;
+}
+
+.Photo, .Personal_Data{
+    display: flex;
+    flex-direction: column;
+}
+.Personal_Data{
+    width: 36.77vw;
+}
+.Header_info{
+    display: inline-flex;
+    align-items: center;
+    gap: 3.65vw;
+    font-family: 'Montserrat_Medium';
+    margin-left: 1.09vw;
+    margin-top: -1.04vw;
+    white-space: nowrap;
+}
+.Name{
+    color: #121212;
+    font-size: 0.89vw;
+}
+.Group, .University{
+    height: 1.2vw;
+    padding: 0px 12px;
+    border-radius: 0.26vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000CFF;
+    color: white;
+    width: auto;
+}
+.Data{
+    display: flex;
+    width: 27.14vw;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 1.25vw 4.69vw;
+    flex-wrap: wrap;
+    margin-top: 0.49vw;
+    margin-left: 3.39vw;
+}
+.Social{
+    width: 18.65vw;
+}
+.Portfolio{
+    width: 36.77vw;
+    display: flex;
+    flex-direction: column;
+}
+.Portfolio_info {
+    margin-top: auto;
+    margin-bottom: 1.09vw;
+    margin-left: 4.43vw;
+    color: #7A7E86;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.78vw;
+    opacity: 0.3;
+}
+.Achievements{
+    width: 36.3vw;
+}

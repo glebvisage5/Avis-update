@@ -1,0 +1,290 @@
+.Header{
+    width: 75vw;
+    height: 5.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.3vw;
+    background: white;
+}
+.Component{
+    display: flex;
+    width: 72.81vw;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.09vw;
+}
+.Name{
+    display: flex;
+    width: 39.74vw;
+    height: 2.92vw;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Head{
+    display: flex;
+    align-items: center;
+    gap: -0.21vw;
+    align-self: stretch;
+    flex-direction: row;
+    height: 1.2vw;
+    width: 39.74vw;
+    font-size: 0.99vw;
+    color: #121212;
+    font-family: 'Montserrat_SemiBold';
+}
+.Head svg{
+    width: 1.98vw;
+    height: 0.99vw;
+}
+.Departament{
+    align-self: stretch;
+    color: #121212;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.78vw;
+    width: 39.74vw;
+    height: 1.2vw;
+}
+.Button{
+    width: 23.96vw;
+    height: 2.92vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1.09vw;
+    gap: 1.09vw;
+}
+.Back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8.44vw;
+    height: 2.92vw;
+    border-radius: 0.26vw;
+    border: 0.05vw solid #7A7E86;
+    cursor: pointer;
+}
+.Back div{
+    display: inline-flex;
+    align-items: center;
+    width: 6.88vw;
+    height: 1.2vw;
+    gap: 0.78vw;
+}
+.Back img{
+    width: 1.04vw;
+    height: 0.89vw;
+}
+.Back p, .Edit p{
+    color: #000CFF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.89vw;
+}
+.Edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 14.43vw;
+    height: 2.92vw;
+    border-radius: 0.26vw;
+    border: 0.05vw dashed #7A7E86;
+}
+.Edit div{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.78vw;
+}
+.Center_bar{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 1.93vw;
+    margin-top: 1.93vw;
+}
+.Table_Task{
+    display: flex;
+    width: 57.45vw;
+    flex-direction: column;
+    gap: 1.93vw;
+}
+.Table{
+    width: 57.45vw;
+    height: 10.42vw;
+    background: white;
+    border-radius: 1.3vw;
+}
+.Table_comp{
+    display: flex;
+    flex-direction: row;
+    gap: 30.5vw;
+    margin-left: 1.09vw;
+}
+.Table_comp .Edit{
+    width: 14vw;
+    height: 2.3vw;
+    margin-top: 0.5vw;
+    user-select: none;
+}
+.Table_head{
+    font-family: 'Montserrat_SemiBold';
+    font-size: 0.99vw;
+    columns: #121212;
+}
+.TasksBlocksContainer{
+    display: grid;
+    width: 57.45vw;
+    height: auto;
+    row-gap: 1.93vw;
+    column-gap: 3.49vw;
+    flex-shrink: 0;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.TaskBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: stretch;
+    width: 9.53vw;
+    padding: 0 1.09vw;
+    height: 10.63vw;
+    background: white;
+    border-radius: 1.3vw;
+    padding-bottom: 1.09vw;
+}
+.Data{
+    display: flex;
+    flex-direction: column;
+    gap: 0.52vw;
+}
+.Task_value{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    height: 1.2vw;
+    color: #121212;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.68vw;
+    line-height: 1.2vw;
+    letter-spacing: 0.02vw;
+}
+.Value{
+    text-align: right;
+}
+.Header_text{
+    font-family: 'Montserrat_SemiBold';
+    font-size: 0.78vw;
+    color: #121212;
+}
+.Prog_Dead{
+    display: flex;
+    width: 15.63vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.93vw;
+}
+.Progress, .Deadline{
+    width: 15.63vw;
+    height: 15.63vw;
+    background: white;
+    border-radius: 1.3vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.SvgBackground {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+.ProgressContent {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Progress_head, .Text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13.18vw;
+    height: 1.2vw;
+    margin-left: 1.09vw;
+    margin-top: 1.09vw;
+}
+.Progress_head p{
+    font-family: 'Montserrat_SemiBold';
+    font-size: 0.99vw;
+    color: #121212;
+}
+.Text{
+    font-family: 'Montserrat_Medium';
+    font-size: 0.78vw;
+    color: #121212;
+    margin-top: 11.3vw;
+}
+.Progress_head .math{
+    opacity: 0.5;
+}
+.Create_link{
+    width: 55.26vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.52vw;
+    margin-left: 1.09vw;
+}
+.Create_link input{
+    height: 2.03vw;
+    outline: none;
+    border: 0.08vw solid #000CFF;
+    border-radius: 0.26vw;
+    padding: 0 0.52vw 0 0.52vw;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.78vw;
+}
+.Button_link{
+    width: 13.02vw;
+    margin-top: 0.52vw;
+    gap: 0.52vw;
+    display: flex;
+    flex-direction: row;
+}
+.Button_link button{
+    padding: 0.52vw 0.94vw;
+    border-radius: 0.26vw;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.78vw;
+    cursor: pointer;
+}
+.Save_link{
+    border: none;
+    background: #000CFF;
+    color: white;
+}
+.Close_link{
+    border: 0.08vw solid #000CFF;
+    background: none;
+    color: #121212;
+}
+.Edit_Task{
+    display: flex;
+    padding: 1.2vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background: #FFF;
+    border: none;
+    color: #000CFF;
+    font-family: 'Montserrat_SemiBold';
+    font-size: 0.89vw;
+    line-height: 1.2vw;
+    letter-spacing: 0.02vw;
+    white-space: nowrap;
+}

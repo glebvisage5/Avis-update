@@ -1,0 +1,195 @@
+.Login{
+    z-index: 1;
+}
+.FormLogin{
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.70);
+}
+.LoginH2{
+    font-family: 'Montserrat_Bold';
+    color: black;
+}
+.LoginA{
+    color: rgba(0, 12, 255, 0.80);
+    font-family: "Montserrat_Medium";
+    text-decoration: none;
+    position: relative;
+}
+.LabelLoginForm{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.FormGroup{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Label{
+    color: #000;
+    font-family: "Montserrat_SemiBold";
+}
+.Input{
+    background: none;
+    outline: none;
+    font-family: "Montserrat_Medium";
+}
+.OpenPassword{
+    color: rgba(0, 0, 0, 0.80);
+    font-family: 'Montserrat_Regular';
+    display: flex;
+    flex-wrap: nowrap;
+}
+.RecoverA{
+    text-decoration: none;
+    color: rgba(0, 12, 255, 0.80);
+    font-family: "Montserrat_Medium";
+    position: relative;
+}
+.FooterLogin{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.LoginBtn{
+    background: #000CFF;
+    font-family: 'Montserrat_SemiBold';
+    color: white;
+    border: none;
+}
+.FrameLogin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FrameLogin p{
+    color: rgba(0, 0, 0, 0.80);
+    text-align: center;
+    font-family: "Montserrat_Medium";
+}
+.LineLogin{
+    background: #d7dade;
+}
+.TelegramLogin{
+    background: linear-gradient(180deg, #2AABEE 0%, #229ED9 100%);
+    border: none;
+    color: white;
+    font-family: 'Montserrat_Medium';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FooterText{
+    color: rgba(0, 0, 0, 0.80);
+    text-align: center;
+    font-family: "Montserrat_Medium";
+}
+.FooterText span{
+    color: rgba(0, 48, 153, 0.80);
+}
+
+@media (min-width: 927px) {
+    .FormLogin{
+        width: 28.65vw;
+        height: 36.46vw;
+        margin-top: 10.54vw;
+        margin-left: 13.75vw;
+        border-radius: 1.56vw;
+        box-shadow: 0.21vw 0.21vw 0.21vw 0 rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(0.1vw);
+    }
+    .LoginH2{
+        font-size: 1.67vw;
+        margin-top: 1.67vw;
+        margin-left: 1.88vw;
+    }
+    .LoginA{
+        font-size: 0.83vw;
+        top: -2.8vw;
+        margin-left: 18.39vw;
+    }
+    .LoginForm{
+        margin-top: 1.04vw;
+        max-width: 28.65vw;
+    }
+    .LabelLoginForm{
+        max-width: 28.65vw;
+    }
+    .FormGroup{
+        max-width: 25vw;
+    }
+    .Label{
+        font-size: 0.83vw;
+        margin-bottom: 0.47vw;
+    }
+    .Input{
+        width: 25vw;
+        height: 2.5vw;
+        border-radius: 0.21vw;
+        border: 0.05vw solid #C4C8D0;
+        margin-bottom: 1.2vw;
+        padding-left: 1.04vw;
+        font-size: 0.83vw;
+    }
+    input[type='checkbox']{
+        width: 1.04vw;
+        height: 1.04vw;
+        border-radius: 0.21vw;
+        border: 0.05vw solid #C4C8D0;
+    }
+    .OpenPassword{
+        font-size: 0.83vw;
+        margin-top: -0.36vw;
+        margin-left: 1.82vw;
+    }
+    .OpenPassword p{
+        margin-top: .25vw;
+        margin-left: 0.63vw;
+    }
+    .RecoverA{
+        font-size: 0.83vw;
+        top: -1.8vw;
+        margin-left: 17.19vw;
+    }
+    .FooterLogin{
+        max-width: 28.65vw;
+        margin-top: -1vw;
+    }
+    .LoginBtn{
+        width: 25vw;
+        height: 2.5vw;
+        border-radius: 0.21vw;
+        font-size: 0.83vw;
+        margin-top: 1.3vw;
+    }
+    .FrameLogin{
+        max-width: 25vw;
+        height: 1.04vw;
+        margin-top: 1.59vw;
+        margin-bottom: 1.25vw;
+    }
+    .FrameLogin p{
+        font-size: 0.73vw;
+        margin-left: 0.42vw;
+        margin-right: 0.42vw;
+    }
+    .LineLogin{
+        width: 11.41vw;
+        height: 0.1vw;
+    }
+    .TelegramLogin{
+        width: 25vw;
+        height: 2.29vw;
+        border-radius: 0.21vw;
+        font-size: 0.83vw;
+    }
+    .TgImg{
+        width: 1.2vw;
+        height: 0.99vw;
+        margin-right: 0.52vw;
+    }
+    .FooterText{
+        font-size: 0.83vw;
+        margin-top: 2.08vw;
+    }
+}

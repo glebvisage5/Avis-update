@@ -1,0 +1,75 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    width: 17.71vw;
+    height: 19.27vw;
+    border-radius: 1.3vw;
+    cursor: pointer;
+}
+.Logo{
+    border-radius: 0.52vw;
+    display: flex;
+    width: 12.5vw;
+    height: 7.29vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.09vw;
+}
+.Header{
+    width: 15.31vw;
+    height: 2.97vw;
+    display: inline-flex;
+    align-items: center;
+    gap: -0.21vw;
+    margin-top: 1.98vw;
+}
+.Header p{
+    width: 13.54vw;
+    font-family: 'Montserrat_Medium';
+    color: #121212;
+    font-size: 0.89vw;
+}
+.Header svg{
+    width: 1.98vw;
+    height: 0.99vw;
+}
+.Card_Bar{
+    width: 12.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.26vw;
+    margin-top: 0.99vw;
+}
+.Text {
+    font-family: 'Montserrat_Medium';
+    font-size: 0.78vw;
+    opacity: 0.5;
+    display: flex;
+    width: 12.5vw;
+    height: 0.99vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.Reg{
+    width: 12.5vw;
+    height: 0.42vw;
+    border-radius: 0.42vw;
+    background: rgba(37, 52, 180, 0.10);
+}
+.Reg div{
+    height: 0.42vw;
+    border-radius: 0.42vw;
+}
+.Click{
+    color: #7A7E86;
+    text-align: center;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.78vw;
+    line-height: 0.98vw;
+    letter-spacing: 0.01vw;
+    opacity: 0.3;
+    margin-top: 1.2vw;
+}

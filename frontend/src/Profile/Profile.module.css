@@ -1,0 +1,193 @@
+.Sidebar{
+    display: flex;
+    width: 21.15vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+}
+.Frame{
+    display: flex;
+    width: 12.76vw;
+    height: 48.96vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.97vw;
+    margin-top: 4.17vw;
+}
+.User{
+    width: 7.6vw;
+    height: 8.95vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.photo{
+    width: 5.49vw;
+    height: 5.49vw;
+    border-radius: 50%;
+    background: grey;
+}
+.text{
+    text-align: center;
+}
+.text h3{
+    font-size: 0.99vw;
+    font-family: 'Montserrat_SemiBold';
+    color: black;
+    height: 1.2vw;
+    margin-top: 0.66vw;
+    margin-bottom: 0;
+}
+.text p{
+    font-size: 0.89vw;
+    font-family: 'Montserrat_Regular';
+    color: #7A7E86;
+    height: 1.09vw;
+    margin-top: 0.51vw;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.bar{
+    display: flex;
+    width: 12.76vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6.46vw;
+}
+.bar_one{
+    width: 12.76vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.57vw;
+    cursor: pointer;
+}
+.rest{
+    width: 12.76vw;
+    height: 0.31vw;
+    border-radius: 0.31vw;
+    background: #E9F1FF;
+}
+.bar_two{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.57vw;
+    align-self: stretch;
+    cursor: pointer;
+}
+.Navigate{
+    width: 75vw;
+    height: 3.13vw;
+    border-radius: 3.13vw;
+    background: white;
+    position: absolute;
+    margin-top: 0.64vw;
+    margin-left: 22.57vw;
+    display: flex;
+    align-items: center;
+}
+.Logo{
+    width: 5.78vw;
+    height: 2.08vw;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.83vw;
+    cursor: pointer;
+    margin-left: 1.71vw;
+}
+.Logo img{
+    width: 2.19vw;
+    height: 2.08vw;
+}
+.Logo p{
+    font-size: 1.33vw;
+    color: black;
+    font-family: 'Montserrat_Medium';
+}
+.Input{
+    height: 2.08vw;
+    width: 31.25vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.64vw;
+    border-radius: 1.04vw;
+    margin-left: 8.06vw;
+    border: 0.1vw dashed #7A7E86;
+}
+.Input img{
+    margin-left: 1.02vw;
+}
+.Input input{
+    height: 100%;
+    width: 85%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 0.89vw;
+    line-height: 0.99vw;
+    letter-spacing: 0.04vw;
+    font-family: 'Montserrat_Medium';
+    color: #7A7E86;
+}
+.Language{
+    width: 10.16vw;
+    height: 2.19vw;
+    display: flex;
+    align-items: center;
+    gap: 0.97vw;
+    color: #121212;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.99vw;
+    margin-left: 7.5vw;
+    letter-spacing: 0.04vw;
+}
+.Language p{
+    opacity: 0.5;
+}
+.Flag{
+    width: 3vw;
+    height: 2.19vw;
+    border-radius: 0.36vw;
+}
+.Shape{
+    width: 0.66vw;
+    height: 0.38vw;
+}
+.Theme{
+    display: flex;
+    width: 3.68vw;
+    height: 1.66vw;
+    padding: 0.26vw;
+    align-items: center;
+    gap: 0.61vw;
+    margin-left: 1.88vw;
+    border-radius: 2.19vw;
+    background: #FFF;
+    box-shadow: -0.24vw 0 0.61vw 0 rgba(124, 124, 124, 0.10) inset, 0.24vw 0.24vw 0.61vw 0 rgba(124, 124, 124, 0.10) inset;
+}
+.Light{
+    display: flex;
+    width: 1.07vw;
+    height: 1.07vw;
+    padding: 0.3vw;
+    align-items: center;
+    gap: 0.59vw;
+    border-radius: 0.83vw;
+    background: #FFF;
+    box-shadow: 0.12vw 0.12vw 0.59vw 0 rgba(0, 0, 0, 0.10);
+}
+.Light img{
+    width: 1.07vw;
+    height: 1.07vw;
+}
+.Bell{
+    width: 2.19vw;
+    height: 2.19vw;
+    margin-left: 1.11vw;
+}
