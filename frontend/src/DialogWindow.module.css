@@ -1,0 +1,76 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window {
+    width: 30vw;
+    background: white;
+    border-radius: 1vw;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    background: none;
+    border: none;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.messages {
+    height: 20vw;
+    overflow-y: auto;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.message {
+    margin-bottom: 1vw;
+    padding-bottom: 0.5vw;
+    border-bottom: 0.1vw solid #eee;
+}
+
+.author {
+    font-weight: bold;
+    margin: 0;
+}
+
+.text {
+    margin: 0.3vw 0 0 0;
+}
+
+.inputBlock {
+    display: flex;
+    gap: 0.5vw;
+}
+
+input {
+    flex: 1;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+    border: 0.1vw solid #ccc;
+}
+
+button {
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    border: none;
+    background: #4A7CFF;
+    color: white;
+    cursor: pointer;
+}

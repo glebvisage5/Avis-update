@@ -8,6 +8,7 @@ import Login from './Form/Login/Login';
 import Register from './Form/Register/Register';
 import Service from './Service/Service';
 import Profile from './Profile/Profile';
+import Dialogs from './Dialogs';
 
 function AppContent() {
   const location = useLocation();
@@ -33,6 +34,7 @@ function AppContent() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/dialogs" element={<Dialogs />} />
         <Route path='/service/*' element={<Service />} />
       </Routes>
     </section>
